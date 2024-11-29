@@ -42,6 +42,18 @@ $ uvicorn main:app --reload
 
 The 'reload' flag is only needed if you want it to load changes as you make it.
 
+
+## UPDATING REQUIREMENTS !IMPORTANT!
+
+To update/add packages to the project with pip, make sure you add the new files to `requirements.txt` not doing this could mean it works on your computer but not anywhere else. Docker also uses the `requirements.txt` file so not adding it could break docker later also.
+
+```bash
+$ pip freeze > requirements.txt
+```
+
+
+
+
 ## TESTED
 * docker environment working
 * env working
