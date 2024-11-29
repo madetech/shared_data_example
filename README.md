@@ -19,7 +19,30 @@ $ docker compose up --build
 
 then click the linked location that fets shown in the terminal.
 
+## WORKING ON THE CODE
+Create a virtual environment
+```bash
+$ python3 -m venv .venv
+```
+
+source the virtual environment:
+```bash
+$ . ./.venv/bin/activate
+```
+install the requirements:
+```bash
+$ pip install -r requirements.txt
+```
+That should be enough to get it all working
+
+You can run it without docker using:
+```bash
+$ uvicorn main:app --reload
+```
+
+The 'reload' flag is only needed if you want it to load changes as you make it.
+
 ## TESTED
 * docker environment working
 * env working
-  
+
