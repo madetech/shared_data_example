@@ -31,3 +31,6 @@ archive.zip
 
 # macOS
 .DS_Store
+
+# secret data - (this is the csv of current Kimble pull)
+data

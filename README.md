@@ -57,4 +57,8 @@ $ pip freeze > requirements.txt
 ## TESTED
 * docker environment working
 * env working
+* jinja templates rendering correctly
+* TODO - parse details on to page
+* TODO - add a search feature
+* 
 
